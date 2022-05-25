@@ -36,7 +36,7 @@
   <section class="intro-container">
     <div class="intro-conteudo">
       <p>Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP</p>
-      <img src="../img/vídeo apresentação.png" alt="video player">
+      <img class="videoplayer" src="../img/vídeo apresentação.png" alt="video player">
     </div>
     <div class="download">
       <img src="../img/download button.svg" alt="download">
@@ -95,19 +95,46 @@
         <p>Resumo</p>
       </div>
       <div class="resumo-texto">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci provident consectetur rem tenetur voluptatum harum aliquid debitis dolorem sed a. Est reiciendis magnam odit sit minima optio amet, id beatae a eaque, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit eum delectus reprehenderit in deleniti consequuntur? Blanditiis officiis iste saepe ducimus nisi dolorum, atque, mollitia ipsa omnis aspernatur provident? Placeat fugiat cupiditate alias at eligendi eos dignissimos minima repellat unde molestias! adipisci commodi temporibus tempora facilis! Voluptates est veritatis quo in rem ratione asperiores <button onclick="leiaMais()" id="btnLeiaMais">ver mais</button><span id="pontos">...</span><span id="mais">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae maxime, dolorum, id ex, minus illum earum commodi vero dolor assumenda exercitationem? Adipisci illum deserunt ad iusto ea. Dolor harum unde similique esse corrupti modi tenetur! Aperiam possimus minima explicabo.<br><br> Temporibus obcaecati fuga dolorum! Eos dicta ratione repellendus architecto! Pariatur incidunt fugit minus non facere inventore recusandae maxime, repellat, quasi doloremque error corrupti consequatur ipsum aliquid dolores laborum commodi ratione. Odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus, quis quas voluptatum culpa alias. Dolor facere quis harum unde. Libero quis, earum beatae unde aliquam hic cum reprehenderit maxime minima eligendi voluptatem a tempore ratione et pariatur rerum veritatis! Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br><br> Ea ullam consectetur, assumenda, voluptatem nesciunt incidunt sequi perferendis consequatur nobis quasi dolor. Aspernatur animi minima praesentium fugiat consectetur aliquam eligendi consequatur? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat autem illum libero, nulla neque repellat quae et voluptatibus nemo molestiae. Dolores temporibus tempora harum, consectetur voluptatum fuga quidem mollitia vitae nisi provident possimus cupiditate veritatis asperiores exercitationem dolorem quo, doloribus velit corrupti ea sed id! Quasi, nesciunt. Esse, voluptate deleniti.</span></p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci provident consectetur rem tenetur voluptatum harum aliquid debitis dolorem sed a. Est reiciendis magnam odit sit minima optio amet, id beatae a eaque, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit eum delectus reprehenderit in deleniti consequuntur? Blanditiis officiis iste saepe ducimus nisi dolorum, atque, mollitia ipsa omnis aspernatur provident? Placeat fugiat cupiditate alias at eligendi eos dignissimos minima repellat unde molestias! adipisci commodi temporibus tempora facilis! Voluptates est veritatis quo in rem ratione asperiores <button class="btnExpand" onclick="leiaMais()" id="btnLeiaMais">ver mais</button><span id="pontos">...</span><span id="mais">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae maxime, dolorum, id ex, minus illum earum commodi vero dolor assumenda exercitationem? Adipisci illum deserunt ad iusto ea. Dolor harum unde similique esse corrupti modi tenetur! Aperiam possimus minima explicabo.<br><br> Temporibus obcaecati fuga dolorum! Eos dicta ratione repellendus architecto! Pariatur incidunt fugit minus non facere inventore recusandae maxime, repellat, quasi doloremque error corrupti consequatur ipsum aliquid dolores laborum commodi ratione. Odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab accusamus, quis quas voluptatum culpa alias. Dolor facere quis harum unde. Libero quis, earum beatae unde aliquam hic cum reprehenderit maxime minima eligendi voluptatem a tempore ratione et pariatur rerum veritatis! Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br><br> Ea ullam consectetur, assumenda, voluptatem nesciunt incidunt sequi perferendis consequatur nobis quasi dolor. Aspernatur animi minima praesentium fugiat consectetur aliquam eligendi consequatur? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat autem illum libero, nulla neque repellat quae et voluptatibus nemo molestiae. Dolores temporibus tempora harum, consectetur voluptatum fuga quidem mollitia vitae nisi provident possimus cupiditate veritatis asperiores exercitationem dolorem quo, doloribus velit corrupti ea sed id! Quasi, nesciunt. Esse, voluptate deleniti.</span></p>
       </div>
     </div>
   </section>
   <section class="discussoes">
     <div class="discussao-criar">
+      <div class="discussoes-titulo">
+        <p>Discussões</p>
+      </div>
       <div class="discussao-texto">
-        <p>Compartilhe suas ideias ou dúvidas com os autores!</p>
-        <img src="../img/icone1.svg" alt="">
-        <img src="../img/icone2.svg" alt="">
-        <img src="../img/icone3.svg" alt="">
-        <p>Sabia que o maior estimulo no desenvolvimento cientifico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
-        <img src="../img/botão - criar tópico.svg" alt="">
+        <div class="enviado">
+          <p>Seu tópico foi enviado com sucesso! :D</p>
+          <p>Descubra outros trabalhos!</p>
+          <a href=""><img class="discussao-img" src="../img/botão - criar tópico.svg" alt=""></a>
+          <div class="validacao">
+            <img class="aguardando" src="../img/card tópico aguardadando validação.png" alt="">
+          </div>
+        </div>
+        <div class="criar">
+          <p>Compartilhe suas ideias ou dúvidas com os autores!</p>
+          <img class="discussao-img" src="../img/icone1.svg" alt="">
+          <img class="discussao-img" src="../img/icone2.svg" alt="">
+          <img class="discussao-img" src="../img/icone3.svg" alt="">
+          <p>Sabia que o maior estimulo no desenvolvimento cientifico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
+          <a href=""><img class="discussao-img" src="../img/botão - criar tópico.svg" alt=""></a>
+        </div>
+        <div class="topico">
+          <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores</p>
+          <form class="form" action="">
+            <div class="definir">
+              <label for="assunto">Assunto</label>
+              <input type="text" placeholder="Defina um tópico sucinto para notificar os autores...">
+            </div>
+            <div class="msg">
+              <label for="mensagem">Conteúdo</label>
+              <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
+            </div>
+            <button class="enviarMsg">Enviar</button>
+          </form>
+        </div>
         <div class="perguntas">
           <p class="pergunta-titulo">Assunto da pergunta aparece aqui</p>
           <p class="pergunta-pessoa">Carlos Henrique Santos</p>
@@ -121,6 +148,12 @@
       </div>
     </div>
   </section>
+
+  <footer>
+    <div class="footer">
+      <img src="../img/imagem - footer.png" alt="">
+    </div>
+  </footer>
 
   <script src="../script.js/script.js"></script>
 </body>
