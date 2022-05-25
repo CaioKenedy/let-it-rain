@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  grid-template-columns: 220px 4fr 1fr;
+  height: 68px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: aquamarine;
+  grid-column: 1/ 2;
+  position: fixed;
+  top: 0;
+  height: 100%;
+}
+
+.headercontainer {
+  background-color: brown;
+  grid-column: 2 / 3;
+}
+
+.login {
+  background-color: chartreuse;
+  grid-column: 3/4;
+}
+
+.navbar a {
+  display: flex;
+}
