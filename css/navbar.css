@@ -1,0 +1,41 @@
+.navbar p {
+  font-weight: 700;
+  font-size: 30px;
+  padding: 20px 20px 20px 20px;
+  background: linear-gradient(#feb154, #f1833e);
+}
+
+.navbar a {
+  margin-left: 20px;
+  padding: 7px 0px;
+  display: flex;
+  font-size: 15px;
+  font-weight: 500px;
+  color: #725c5c;
+  position: relative;
+}
+
+.navbar a:after {
+  content: "";
+  display: block;
+  max-width: 360px;
+  height: 1px;
+  width: 200px;
+  margin-top: 24px;
+  background: black;
+  position: absolute;
+  z-index: 200;
+}
+
+.trabalhos {
+  background-color: #fdf1eb;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #fff;
+  grid-column: 1/ 2;
+  position: fixed;
+  top: 0;
+  height: 100%;
+}
