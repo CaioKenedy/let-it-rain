@@ -120,9 +120,9 @@
 }
 
 .discussao-img {
-  padding-left: 50px;
-  padding-top: 20px;
-  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   position: relative;
   left: -35px;
   z-index: 2;
@@ -202,11 +202,11 @@ footer {
   cursor: pointer;
 }
 
-.criar {
+.topico {
   display: none;
 }
 
-.topico {
+.enviado {
   display: none;
 }
 

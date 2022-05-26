@@ -29,3 +29,10 @@ a {
   border: none;
   padding: 0;
 }
+
+.criacao {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}

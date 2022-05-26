@@ -105,23 +105,23 @@
         <p>Discussões</p>
       </div>
       <div class="discussao-texto">
-        <div class="enviado">
+        <div class="enviado" id="enviado">
           <p>Seu tópico foi enviado com sucesso! :D</p>
           <p>Descubra outros trabalhos!</p>
-          <a href=""><img class="discussao-img" src="../img/botão - criar tópico.svg" alt=""></a>
+          <button class="criacao" id="reiniciar" onclick="reiniciar()"><img class="discussao-img" src="../img/botão - criar tópico.svg" alt=""></button>
           <div class="validacao">
             <img class="aguardando" src="../img/card tópico aguardadando validação.png" alt="">
           </div>
         </div>
-        <div class="criar">
+        <div class="criar" id="criar">
           <p>Compartilhe suas ideias ou dúvidas com os autores!</p>
           <img class="discussao-img" src="../img/icone1.svg" alt="">
           <img class="discussao-img" src="../img/icone2.svg" alt="">
           <img class="discussao-img" src="../img/icone3.svg" alt="">
           <p>Sabia que o maior estimulo no desenvolvimento cientifico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
-          <a href=""><img class="discussao-img" src="../img/botão - criar tópico.svg" alt=""></a>
+          <button class="criacao" id="firstBtn" onclick="addClass()"><img class="discussao-img" src="../img/botão - criar tópico.svg" alt=""></button>
         </div>
-        <div class="topico">
+        <div class="topico" id="topico">
           <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores</p>
           <form class="form" action="">
             <div class="definir">
@@ -129,10 +129,10 @@
               <input type="text" placeholder="Defina um tópico sucinto para notificar os autores...">
             </div>
             <div class="msg">
-              <label for="mensagem">Conteúdo</label>
-              <textarea rows="5" id="mensagem" name="mensagem" placeholder="O que você precisa?"></textarea>
+              <label>Conteúdo</label>
+              <textarea rows="5" placeholder="O que você precisa?"></textarea>
             </div>
-            <button class="enviarMsg">Enviar</button>
+            <button class="enviarMsg" type="button" onclick="teste()">enviar</button>
           </form>
         </div>
         <div class="perguntas">

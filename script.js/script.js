@@ -13,3 +13,19 @@ function leiaMais() {
     btnLeiaMais.style.display = "none";
   }
 }
+
+function addClass() {
+  const topico = (document.getElementById("topico").style.display = "block");
+  const firstBtn = (document.getElementById("criar").style.display = "none");
+}
+
+function teste() {
+  const topico = (document.getElementById("topico").style.display = "none");
+  const firstBtn = (document.getElementById("criar").style.display = "none");
+  const addBlur = (document.getElementById("enviado").style.display = "block");
+}
+
+function reiniciar() {
+  const topico = (document.getElementById("criar").style.display = "block");
+  const addBlur = (document.getElementById("enviado").style.display = "none");
+}
