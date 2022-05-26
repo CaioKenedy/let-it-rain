@@ -1,15 +1,53 @@
 .container {
   display: grid;
   grid-template-columns: 220px 4fr 1fr;
-  height: 68px;
+  height: 75px;
+  background-color: #fdf1eb;
+}
+
+.titulo {
+  padding: 10px 30px;
+}
+
+.titulo p {
+  text-align: left;
+  font-family: Roboto;
+  font-weight: 400;
+  color: #725c5c;
+}
+
+.top {
+  font-size: 14px;
+}
+
+.mid {
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+.bottom {
+  font-size: 14px;
 }
 
 .headercontainer {
-  background-color: brown;
   grid-column: 2 / 3;
 }
 
 .login {
-  background-color: chartreuse;
-  grid-column: 3/4;
+  grid-column: -1;
+}
+
+.login p {
+  font-family: Roboto;
+  color: #fff;
+  background: linear-gradient(#feb154, #f1833e);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+  padding: 12px 18px;
+  margin-top: 15px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.login p:hover {
+  color: #893d0e;
 }
