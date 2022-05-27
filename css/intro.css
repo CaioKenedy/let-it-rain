@@ -34,6 +34,10 @@
   cursor: pointer;
 }
 
+.download img:hover {
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
 .citar {
   font-family: Roboto;
   color: #ed7839;

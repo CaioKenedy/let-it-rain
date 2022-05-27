@@ -10,6 +10,10 @@
   color: #fff;
 }
 
+.navbar p:hover {
+  color: #b3670b;
+}
+
 .off {
   font-family: Quicksand;
   margin-left: 20px;
