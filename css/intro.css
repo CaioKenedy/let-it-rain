@@ -30,6 +30,10 @@
   margin-right: 50px;
 }
 
+.download img {
+  cursor: pointer;
+}
+
 .citar {
   font-family: Roboto;
   color: #ed7839;

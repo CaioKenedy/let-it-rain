@@ -113,3 +113,11 @@
   font-size: 14px;
   color: #4d4d4d;
 }
+
+.likes p {
+  font-family: Quicksand;
+  font-size: 12px;
+  color: #757575;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
