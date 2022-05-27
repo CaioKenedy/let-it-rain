@@ -1,7 +1,7 @@
 .resumo {
   display: grid;
   grid-template-columns: 220px 1fr 1fr 29px;
-  max-width: 1800px;
+  max-width: 2560px;
 }
 
 .resumo-conteudo {

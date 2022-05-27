@@ -100,7 +100,7 @@ footer {
   display: grid;
   grid-template-columns: 220px 1fr 1fr 29px;
   margin-top: 50px;
-  max-width: 1800px;
+  max-width: 2560px;
 }
 
 .footer {

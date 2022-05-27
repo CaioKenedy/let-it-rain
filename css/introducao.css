@@ -53,6 +53,12 @@
   .detalhes-conteudo {
     height: 220px;
   }
+  .intro-conteudo p {
+    font-size: 14px;
+  }
+  .citar {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 860px) {
@@ -82,13 +88,78 @@
 @media (min-width: 1600px) {
   .detalhes-conteudo {
     width: auto;
-    max-width: 630px;
+    max-width: 520px;
+    height: 500px;
   }
   .discussao-texto {
-    width: 1450px;
+    width: 1250px;
+    max-width: 1600px !important;
+  }
+  .discussoes {
+    max-width: 1600px !important;
+  }
+  .container {
+    max-width: auto !important;
+  }
+  .download {
+    margin-left: 150px;
+  }
+  .videoplayer {
+    width: 110%;
+  }
+}
+
+@media (min-width: 1700px) {
+  .discussao-texto {
+    width: 1350px;
+    max-width: 2000px !important;
+  }
+  .discussoes {
+    max-width: 2000px !important;
+  }
+}
+
+@media (min-width: 1900px) {
+  .detalhes-conteudo {
+    width: auto;
+    max-width: 480px;
+    height: 585px;
+  }
+  .discussao-texto {
+    width: inherit;
     max-width: 1800px !important;
   }
   .discussoes {
-    max-width: 1800px;
+    max-width: 1900px;
+  }
+  .videoplayer {
+    width: 130%;
+  }
+  .download {
+    margin-left: 300px;
+  }
+}
+
+@media (min-width: 2000px) {
+  .detalhes-conteudo {
+    width: auto;
+    max-width: 600px;
+    height: 585px;
+  }
+  .discussao-texto {
+    width: inherit;
+    max-width: 2560px !important;
+  }
+  .discussoes {
+    max-width: 2560px !important;
+  }
+  .container {
+    max-width: 2560px !important;
+  }
+  .download {
+    margin-left: 900px;
+  }
+  .videoplayer {
+    width: 200%;
   }
 }
