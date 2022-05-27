@@ -84,3 +84,32 @@
   top: -140px;
   z-index: 1;
 }
+
+.perguntas {
+  text-align: left;
+  padding: 20px 20px 20px 20px;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.pergunta-titulo {
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ed7839;
+}
+
+.pergunta-pessoa {
+  font-family: Quicksand;
+  font-size: 12px;
+  color: #5c5c5c;
+  margin-bottom: 10px;
+}
+
+.pergunta-perguntas {
+  font-family: Quicksand;
+  font-size: 14px;
+  color: #4d4d4d;
+}
