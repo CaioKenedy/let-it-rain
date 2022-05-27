@@ -30,6 +30,42 @@
   max-width: 1101px;
 }
 
+.compartilhe-titulo {
+  color: #ed7839;
+}
+
+.compartilhe-texto {
+  color: #595959;
+  font-family: Quicksand;
+  font-size: 14px;
+}
+
+.enviado p {
+  margin-right: 40px;
+}
+
+.enviado-texto {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 20px;
+  color: #ed7839;
+  margin-bottom: 18px;
+}
+
+.enviado-subtexto {
+  font-family: Quicksand;
+  font-size: 14px;
+  color: #595959;
+  margin-bottom: 20px;
+}
+
+.enviado-descubra {
+  font-family: Quicksand;
+  font-family: 14px;
+  color: #ed7839;
+  text-decoration: underline;
+}
+
 .discussao-img {
   padding-left: 10px;
   padding-top: 10px;

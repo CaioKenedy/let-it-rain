@@ -112,19 +112,20 @@
       </div>
       <div class="discussao-texto">
         <div class="enviado" id="enviado">
-          <p>Seu tópico foi enviado com sucesso! :D</p>
-          <p>Descubra outros trabalhos!</p>
+          <p class="enviado-texto">Seu tópico foi enviado com sucesso! :D</p>
+          <p class="enviado-subtexto">Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p>
+          <p class="enviado-descubra">Descubra outros trabalhos!</p>
           <button class="criacao" id="reiniciar" onclick="reiniciar()"><img class="discussao-img" src="./img/criar.svg" alt=""></button>
           <div class="validacao">
             <img class="aguardando" src="./img/validacao.png" alt="">
           </div>
         </div>
         <div class="criar" id="criar">
-          <p>Compartilhe suas ideias ou dúvidas com os autores!</p>
+          <p class="compartilhe-titulo">Compartilhe suas ideias ou dúvidas com os autores!</p>
           <img class="discussao-img" src="./img/icone1.svg" alt="">
           <img class="discussao-img" src="./img/icone2.svg" alt="">
           <img class="discussao-img" src="./img/icone3.svg" alt="">
-          <p>Sabia que o maior estimulo no desenvolvimento cientifico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
+          <p class="compartilhe-texto">Sabia que o maior estimulo no desenvolvimento cientifico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
           <button class="criacao" id="firstBtn" onclick="addClass()"><img class="discussao-img" src="./img/criar.svg" alt=""></button>
         </div>
         <div class="topico" id="topico">
@@ -132,11 +133,11 @@
           <form class="form" action="">
             <div class="definir">
               <label for="assunto">Assunto</label>
-              <input type="text" placeholder="Defina um tópico sucinto para notificar os autores...">
+              <input type="text" placeholder="Defina um tópico sucinto para notificar os autores..." required>
             </div>
             <div class="msg">
               <label>Conteúdo</label>
-              <textarea rows="5" placeholder="O que você precisa?"></textarea>
+              <textarea rows="5" placeholder="O que você precisa?" required></textarea>
             </div>
             <button class="enviarMsg" type="button" onclick="teste()">enviar</button>
           </form>
