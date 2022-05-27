@@ -130,12 +130,6 @@ footer {
   .intro-container {
     grid-template-columns: 220px 3fr 1fr;
   }
-  .resumo {
-  }
-
-  .detalhes-conteudo {
-    height: 200px;
-  }
 }
 
 @media (max-width: 1190px) {
