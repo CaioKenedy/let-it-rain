@@ -3,6 +3,7 @@
   grid-template-columns: 220px 4fr 1fr;
   height: 75px;
   background-color: #fdf1eb;
+  width: auto;
 }
 
 .titulo {

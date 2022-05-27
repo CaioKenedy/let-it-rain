@@ -1,0 +1,38 @@
+.intro-conteudo p {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 20px;
+  color: #ed7839;
+}
+
+.detalhes {
+  border: 1px solid #ececec;
+  background-color: #fdf1eb;
+  padding: 12px 15px;
+}
+
+.detalhes p {
+  font-family: Roboto;
+  font-weight: 500px;
+  color: #4e4e4e;
+}
+
+.detalhes-conteudo {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  max-width: 300px;
+  border: 1px solid #ececec;
+  height: 453px;
+  overflow-y: scroll;
+}
+
+.descricao {
+  font-family: Quicksand;
+  font-size: 14px;
+  font-weight: 400;
+  color: #5c5c5c;
+}
+
+.descricao strong {
+  color: #000;
+}

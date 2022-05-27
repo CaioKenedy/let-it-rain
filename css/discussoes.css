@@ -1,0 +1,50 @@
+.discussoes {
+  display: grid;
+  grid-template-columns: 220px 1fr 1fr 29px;
+}
+
+.discussao-criar {
+  margin-left: 45px;
+  margin-right: 20px;
+  padding: 0px;
+  grid-column: 2/4;
+  border: 1px solid #e7e7e7;
+}
+
+.discussoes-titulo {
+  color: #4e4e4e;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 10px 15px;
+  background-color: #fdf1eb;
+}
+
+.discussao-texto {
+  color: #4e4e4e;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 15px 10px 10px 15px;
+  text-align: center;
+  max-width: 1101px;
+}
+
+.discussao-img {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  left: -35px;
+  z-index: 2;
+}
+
+#pseudo::after {
+  content: "";
+  display: none;
+  height: 1px;
+  background: #e7e7e7;
+  position: relative;
+  top: -140px;
+  z-index: 1;
+}

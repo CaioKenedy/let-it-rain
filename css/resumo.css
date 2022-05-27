@@ -1,0 +1,39 @@
+.resumo {
+  display: grid;
+  grid-template-columns: 220px 1fr 1fr 29px;
+}
+
+.resumo-conteudo {
+  margin-left: 24px;
+  padding: 20px;
+  grid-column: 2/4;
+}
+
+.titulo-resumo {
+  color: #4e4e4e;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 400;
+  padding: 10px 15px;
+  background-color: #fdf1eb;
+}
+
+.resumo-texto {
+  border: 1px solid #ececec;
+  background-color: #fff;
+}
+
+.resumo-texto p {
+  font-family: Roboto;
+  color: #5c5c5c;
+  padding: 15px 10px 10px 15px;
+}
+
+.btnExpand {
+  font-family: Roboto;
+  color: #ed7839;
+}
+
+#pontos {
+  color: #ed7839;
+}

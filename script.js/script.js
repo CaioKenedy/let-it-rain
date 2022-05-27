@@ -17,6 +17,11 @@ function leiaMais() {
 function addClass() {
   const topico = (document.getElementById("topico").style.display = "block");
   const firstBtn = (document.getElementById("criar").style.display = "none");
+  const pseudo = document.getElementById("pseudo");
+  const pseudoelement = (window.getComputedStyle(
+    pseudo,
+    "::after"
+  ).style.display = "none");
 }
 
 function teste() {
