@@ -23,13 +23,14 @@
   font-weight: 500px;
   color: #725c5c;
   position: relative;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
 }
 
 .off:hover {
   background-color: #fdf1eb;
 }
 
-.off:after {
+/* .off:after {
   content: "";
   display: block;
   max-width: 360px;
@@ -39,12 +40,12 @@
   background: #e7e7e7;
   position: absolute;
   z-index: 200;
-}
+} */
 
 .trabalhos {
   font-family: Quicksand;
   background-color: #fdf1eb;
-  border-left: solid 5px #f1833e;
+  border-left: solid 5.5px #f1833e;
   margin-left: 20px;
   padding: 7px 10px;
   display: flex;
@@ -52,9 +53,10 @@
   font-weight: 500px;
   color: #725c5c;
   position: relative;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05);
 }
 
-.trabalhos:after {
+/* .trabalhos:after {
   content: "";
   display: block;
   max-width: 360px;
@@ -65,7 +67,7 @@
   position: absolute;
   z-index: 200;
   left: -6px;
-}
+} */
 
 .navbar {
   overflow: hidden;

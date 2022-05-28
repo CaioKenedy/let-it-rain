@@ -1,15 +1,17 @@
 @media (max-width: 700px) {
-  .navbar {
+  .container {
     display: none;
   }
-
   .intro-container {
     grid-template-columns: 1fr;
+  }
+  .intro-conteudo p {
+    font-size: 12px;
+    margin-right: 20px;
   }
   .videoplayer {
     width: 90%;
     grid-column: 1 / -1;
-    margin-right: 50px;
   }
   .download {
     margin-left: 0px;
@@ -54,5 +56,11 @@
     grid-template-columns: 1fr;
     grid-column: 1 / -1;
     margin-right: 50px;
+  }
+}
+
+@media (max-width: 700px) {
+  .videoplayer {
+    margin-right: 0px;
   }
 }

@@ -34,3 +34,16 @@ function reiniciar() {
   const topico = (document.getElementById("criar").style.display = "block");
   const addBlur = (document.getElementById("enviado").style.display = "none");
 }
+
+// menu hamburguer
+
+const btnMobile = document.getElementById("btn-mobile");
+
+function toggleMenu(event) {
+  if (event.type == "touchstart") event.preventDefault();
+  const nav = document.getElementById("nav");
+  nav.classList.toggle("active");
+}
+
+btnMobile.addEventListener("click", toggleMenu);
+btnMobile.addEventListener("touchstart", toggleMenu);
