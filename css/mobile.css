@@ -133,17 +133,9 @@
 
 @media (max-width: 350px) {
   .saiba-mais {
-    padding: 10px 60px;
+    padding: 10px 30px;
   }
 
 }
 
-@media (max-width: 310px) {
-  .saiba-mais {
-    margin-left: 0px;;
-    padding: 10px 50px;
-    
-  }
-
-}
 
