@@ -55,6 +55,9 @@
   .discussao-criar {
     margin-right: 0px;
   }
+  .discussao-img {
+    margin-left: 50px;
+  }
   footer {
     grid-template-columns: 1fr;
     grid-column: none;
@@ -68,6 +71,7 @@
     grid-column: none;
   }
   .footer-p {
+    text-align: center;
     grid-column: none;
     font-size: 12px;
   }
