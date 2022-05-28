@@ -115,6 +115,7 @@
   .footer {
     grid-column: none;
     margin-left: 0px;
+    max-width: fit-content;
   }
   .footer-p {
     text-align: center;
@@ -122,7 +123,7 @@
     font-size: 12px;
   }
   .saiba-mais {
-    padding: 10px 30px;
+    padding: 10px 15px;
     margin-left: 0px;
   }
 }
