@@ -1,0 +1,58 @@
+@media (max-width: 700px) {
+  .navbar {
+    display: none;
+  }
+
+  .intro-container {
+    grid-template-columns: 1fr;
+  }
+  .videoplayer {
+    width: 90%;
+    grid-column: 1 / -1;
+    margin-right: 50px;
+  }
+  .download {
+    margin-left: 0px;
+  }
+  .download img {
+    width: 80px;
+    height: 30px;
+  }
+  .citar {
+    font-size: 12px;
+  }
+  .descricao li {
+    text-align: center;
+  }
+  .detalhes-conteudo {
+    max-width: inherit;
+    margin-right: 0px;
+    height: 400px;
+    grid-column: 1/-1;
+  }
+  .resumo {
+    grid-template-columns: 1fr;
+  }
+  .resumo-conteudo {
+    max-width: inherit;
+    grid-column: 1/-1;
+    margin-left: 45px;
+    margin-right: 50px;
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  .discussoes {
+    grid-template-columns: 1fr;
+    max-width: inherit;
+    margin-left: 0px;
+    margin-right: 50px;
+  }
+  .discussao-criar {
+    margin-right: 0px;
+  }
+  .footer {
+    grid-template-columns: 1fr;
+    grid-column: 1 / -1;
+    margin-right: 50px;
+  }
+}
