@@ -120,8 +120,8 @@
     font-size: 12px;
   }
   .saiba-mais {
-    padding: 10px 60px;
-    margin-left: 0px;
+    padding: 10px 70px;
+    margin-left: 10px;
   }
 }
 
@@ -129,4 +129,12 @@
   .videoplayer {
     margin-right: 0px;
   }
+}
+
+@media (max-width: 350px) {
+  .saiba-mais {
+    padding: 10px 60px;
+    margin-left: 10px;
+  }
+
 }
