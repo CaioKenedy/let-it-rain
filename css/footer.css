@@ -1,0 +1,25 @@
+
+footer {
+  display: grid;
+  grid-template-columns: 220px 300px 1fr 29px;
+  margin-top: 50px;
+  max-width: 2560px;
+}
+
+.footer {
+  grid-column: 2/3;
+  margin-left: 45px;
+  max-width: 70%;
+  margin-bottom: 40px;
+}
+
+.footer-p {
+  color: #4d4d4d;
+  grid-column: 3/3;
+  font-size: 14px;
+  font-family: Quicksand;
+}
+
+
+
+

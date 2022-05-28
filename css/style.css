@@ -1,6 +1,6 @@
 @import "./header.css";
 @import "./global.css";
-@import "./intro.css";
+@import "./footer.css";
 @import "./navbar.css";
 @import "./introducao.css";
 @import "./resumo.css";
@@ -8,3 +8,4 @@
 @import "./formulario.css";
 @import "./mobile.css";
 @import "./menu-hamburguer.css";
+@import "./cores.css";
