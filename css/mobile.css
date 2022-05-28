@@ -3,6 +3,7 @@
     display: none;
   }
   .intro-container {
+    margin-left: 15px;
     grid-template-columns: 1fr;
   }
   .intro-conteudo p {
@@ -15,6 +16,7 @@
   }
   .download {
     margin-left: 0px;
+    margin-right: 15px;
   }
   .download img {
     width: 80px;
@@ -41,8 +43,8 @@
   .resumo-conteudo {
     max-width: inherit;
     grid-column: 1/-1;
-    margin-left: 45px;
-    margin-right: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
     padding: 0px;
     margin-bottom: 20px;
   }
@@ -50,10 +52,11 @@
     grid-template-columns: 1fr;
     max-width: inherit;
     margin-left: 0px;
-    margin-right: 50px;
+    margin-right: 15px;
   }
   .discussao-criar {
     margin-right: 0px;
+    margin-left: 15px;
   }
   .discussao-img {
     margin-left: 50px;
@@ -63,9 +66,9 @@
     grid-column: none;
     margin-right: 0px;
     max-width: 600px;
-    margin-left: 45px;
+    margin-left: 15px;
     margin-bottom: 40px;
-    margin-right: 50px;
+    margin-right: 15px;
   }
   .footer {
     grid-column: none;
