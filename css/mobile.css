@@ -32,6 +32,9 @@
     height: 400px;
     grid-column: 1/-1;
   }
+  .detalhes p {
+    font-size: 25px;
+  }
   .resumo {
     grid-template-columns: 1fr;
   }
@@ -52,10 +55,21 @@
   .discussao-criar {
     margin-right: 0px;
   }
-  .footer {
+  footer {
     grid-template-columns: 1fr;
-    grid-column: 1 / -1;
+    grid-column: none;
+    margin-right: 0px;
+    max-width: 600px;
+    margin-left: 45px;
+    margin-bottom: 40px;
     margin-right: 50px;
+  }
+  .footer {
+    grid-column: none;
+  }
+  .footer-p {
+    grid-column: none;
+    font-size: 12px;
   }
 }
 

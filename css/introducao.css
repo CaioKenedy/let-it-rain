@@ -107,6 +107,9 @@
   .videoplayer {
     width: 110%;
   }
+  .footer-p {
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 1700px) {
@@ -144,7 +147,7 @@
   .detalhes-conteudo {
     width: auto;
     max-width: 600px;
-    height: 585px;
+    height: 740px;
   }
   .discussao-texto {
     width: inherit;
@@ -157,9 +160,9 @@
     max-width: 2560px !important;
   }
   .download {
-    margin-left: 900px;
+    margin-left: 600px;
   }
   .videoplayer {
-    width: 200%;
+    width: 170%;
   }
 }
