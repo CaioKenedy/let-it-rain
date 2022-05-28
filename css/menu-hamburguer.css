@@ -3,9 +3,7 @@
   font-family: Quicksand;
 }
 
-#menu a:hover {
-  background: rgba(0, 0, 0, 0.05);
-}
+
 
 #header {
   box-sizing: border-box;
@@ -62,12 +60,16 @@
     margin: 0 1rem;
     border-bottom: 2px solid rgba(0, 0, 0, 0.05);
   }
+  #menu a:hover {
+    color: var(--cor-p1);
+  }
 
   #selected {
     border-bottom: 2px solid var(--cor-secundaria) !important;
     max-width: 0%;
     animation: drawBorder 1s ease forwards;
     animation-iteration-count: infinite;
+    color: var(--cor-p1) !important;
   }
   @keyframes drawBorder {
     from {
@@ -83,7 +85,7 @@
     color: #fff;
     background: linear-gradient(#feb154, #f1833e);
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 1rem;
     cursor: pointer;
   }
 
