@@ -104,6 +104,7 @@
   }
   footer {
     grid-template-columns: 1fr;
+    place-items: center;
     grid-column: none;
     margin-right: 0px;
     max-width: 600px;
@@ -113,6 +114,7 @@
   }
   .footer {
     grid-column: none;
+    margin-left: 0px;
   }
   .footer-p {
     text-align: center;
@@ -133,7 +135,7 @@
 
 @media (max-width: 350px) {
   .saiba-mais {
-    padding: 10px 30px;
+    padding: 10px 30px !important;
   }
 
 }
