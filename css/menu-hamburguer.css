@@ -50,6 +50,7 @@
     z-index: 5000;
     visibility: hidden;
     overflow-y: hidden;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
   }
   #nav.active #menu {
     height: calc(100vh - 70px) !important;
@@ -74,9 +75,10 @@
     color: #fff;
     background: linear-gradient(#feb154, #f1833e);
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
-    padding: 0.5rem 1rem;
+    padding: 0.25rem 0.5rem;
     cursor: pointer;
   }
+
   #btn-mobile {
     color: #ed7839;
     font-family: Roboto;

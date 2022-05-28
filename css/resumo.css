@@ -33,6 +33,7 @@
 .btnExpand {
   font-family: Roboto;
   color: #ed7839;
+  cursor: pointer;
 }
 
 #pontos {

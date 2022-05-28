@@ -24,7 +24,7 @@ function addClass() {
   ).style.display = "none");
 }
 
-function teste() {
+function enviarMsg() {
   const topico = (document.getElementById("topico").style.display = "none");
   const firstBtn = (document.getElementById("criar").style.display = "none");
   const addBlur = (document.getElementById("enviado").style.display = "block");
@@ -35,15 +35,3 @@ function reiniciar() {
   const addBlur = (document.getElementById("enviado").style.display = "none");
 }
 
-// menu hamburguer
-
-const btnMobile = document.getElementById("btn-mobile");
-
-function toggleMenu(event) {
-  if (event.type == "touchstart") event.preventDefault();
-  const nav = document.getElementById("nav");
-  nav.classList.toggle("active");
-}
-
-btnMobile.addEventListener("click", toggleMenu);
-btnMobile.addEventListener("touchstart", toggleMenu);

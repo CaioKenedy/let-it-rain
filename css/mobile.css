@@ -42,7 +42,7 @@
     grid-template-columns: 1fr;
   }
   .intro-conteudo p {
-    font-size: 12px;
+    font-size: 14px;
     margin-right: 20px;
   }
   .videoplayer {
@@ -96,6 +96,12 @@
   .discussao-img {
     margin-left: 50px;
   }
+  .enviado p {
+    margin-right: 0px;
+  }
+  .aguardando {
+    display: none;
+  }
   footer {
     grid-template-columns: 1fr;
     grid-column: none;
@@ -112,6 +118,10 @@
     text-align: center;
     grid-column: none;
     font-size: 12px;
+  }
+  .saiba-mais {
+    padding: 10px 70px;
+    margin-left: 10px;
   }
 }
 
