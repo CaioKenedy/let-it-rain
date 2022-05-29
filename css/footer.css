@@ -19,9 +19,10 @@ footer {
   font-family: Quicksand;
 }
 .saiba-mais {
+  margin-left: 40px;
   margin-top: 0px;
   color: #fff;
-  padding: 10px 63px;
+  padding: 5px 30px;
   background: #71478e;
   border-radius: 2px;
 }
