@@ -1,13 +1,13 @@
 # Let it rain
 
-
-
+> Exercício proposto durante a segunda etapa do processo seletivo para desenvolvedor front-end realizado pela Chuva inc.
+-----------------------------------------------------------------------------------------------------------------------
 ![](img/desktopreadme.png)
 <p align="center">
   <img src="https://github.com/CaioKenedy/let-it-rain/blob/main/img/mobilereadme.png" alt="Mobile image"/>
 </p>
 
-> Exercício proposto durante a segunda etapa do processo seletivo para desenvolvedor front-end realizado pela Chuva inc.
+------------------------------------------------------------------------------------------------------------------------
 
 
 
