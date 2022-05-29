@@ -1,4 +1,3 @@
-
 footer {
   display: grid;
   grid-template-columns: 220px 300px 1fr 29px;
@@ -20,12 +19,12 @@ footer {
   font-family: Quicksand;
 }
 .saiba-mais {
+  margin-top: 0px;
   color: #fff;
-  padding: 10px 65px;
+  padding: 10px 63px;
   background: #71478e;
   border-radius: 2px;
 }
-
-
-
-
+#sumir {
+  display: none;
+}

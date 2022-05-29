@@ -32,7 +32,6 @@
   }
 }
 
-
 @media (max-width: 700px) {
   .container {
     display: none;
@@ -126,6 +125,12 @@
     padding: 10px 15px;
     margin-left: 0px;
   }
+  #sumir {
+    display: block;
+  }
+  #aparecer {
+    display: none;
+  }
 }
 
 @media (max-width: 700px) {
@@ -133,5 +138,3 @@
     margin-right: 0px;
   }
 }
-
-
